@@ -1,10 +1,10 @@
 """ Method 1 """
 
-num = int(input("Give me a number to check: "))
-check = int(input("Give me a number to divide by: "))
+num = int(input("Give me a number to check: ")) # saņemt numuru
+check = int(input("Give me a number to divide by: ")) # iegūstiet skaitli, ar ko dalīt
 
-if num % 4 == 0:
-    print(num, "is a multiple of 4")
+if num % 4 == 0: # Pārbaudiet, vai varat dalīt skaitli ar 4
+    print(num, "is a multiple of 4") # skaitlis ir reizināts ar 4
 elif num % 2 == 0:
     print(num, "is an even number")
 else:
